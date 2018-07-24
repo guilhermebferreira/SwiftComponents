@@ -12,7 +12,6 @@
 		20EAC806210797D000EAF67D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20EAC804210797D000EAF67D /* Main.storyboard */; };
 		20EAC808210797D900EAF67D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20EAC807210797D900EAF67D /* Assets.xcassets */; };
 		20EAC80B210797D900EAF67D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20EAC809210797D900EAF67D /* LaunchScreen.storyboard */; };
-		20EAC813210797F300EAF67D /* ViewControllerTela2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EAC812210797F300EAF67D /* ViewControllerTela2.swift */; };
 		20EAC8162107A4A100EAF67D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20EAC8142107A4A100EAF67D /* InfoPlist.strings */; };
 		20EAC81B2107A95E00EAF67D /* ViewControllerPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EAC81A2107A95E00EAF67D /* ViewControllerPickerView.swift */; };
 /* End PBXBuildFile section */
@@ -25,7 +24,6 @@
 		20EAC807210797D900EAF67D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20EAC80A210797D900EAF67D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20EAC80C210797D900EAF67D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20EAC812210797F300EAF67D /* ViewControllerTela2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTela2.swift; sourceTree = "<group>"; };
 		20EAC8152107A4A100EAF67D /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		20EAC8172107A4A100EAF67D /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Main.strings; sourceTree = "<group>"; };
 		20EAC81A2107A95E00EAF67D /* ViewControllerPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPickerView.swift; sourceTree = "<group>"; };
@@ -63,7 +61,6 @@
 			children = (
 				20EAC800210797D000EAF67D /* AppDelegate.swift */,
 				20EAC802210797D000EAF67D /* ViewController.swift */,
-				20EAC812210797F300EAF67D /* ViewControllerTela2.swift */,
 				20EAC81A2107A95E00EAF67D /* ViewControllerPickerView.swift */,
 				20EAC804210797D000EAF67D /* Main.storyboard */,
 				20EAC807210797D900EAF67D /* Assets.xcassets */,
@@ -148,7 +145,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				20EAC803210797D000EAF67D /* ViewController.swift in Sources */,
-				20EAC813210797F300EAF67D /* ViewControllerTela2.swift in Sources */,
 				20EAC801210797D000EAF67D /* AppDelegate.swift in Sources */,
 				20EAC81B2107A95E00EAF67D /* ViewControllerPickerView.swift in Sources */,
 			);
