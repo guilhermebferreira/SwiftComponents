@@ -14,6 +14,7 @@ UIPickerViewDataSource{
     
     
     @IBOutlet weak var vrPicker: UIPickerView!
+    @IBOutlet weak var vrImage: UIImageView!
     
     //datasets da classe
     var paradigmas = ["Estruturadas", "Orientadas"]
@@ -46,10 +47,25 @@ UIPickerViewDataSource{
         
     }
     
+    //implementa os metodos de DELEGATE
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        if(component == 0){
+            vrPicker.reloadComponent(1)
+            vrPicker.selectRow(0, inComponent: 1, animated: true)
+            vrImage.image = UIImage(named: vetLinguagens[row][0])
+        }else{
+            //troca a imagem
+            let linha = vrPicker.selectedRow(inComponent: 0)
+            vrImage.image = UIImage(named: vetLinguagens[linha][row])
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         vrPicker.selectRow(0, inComponent: 0, animated: false)
+        
+        vrImage.image = UIImage(named: vetLinguagens[0][0])
         
     }
 
