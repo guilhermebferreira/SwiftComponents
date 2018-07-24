@@ -8,7 +8,9 @@
 
 import UIKit
 
-class ViewControllerPickerView: UIViewController {
+class ViewControllerPickerView: UIViewController,
+UIPickerViewDelegate,
+UIPickerViewDataSource{
 
     override func viewDidLoad() {
         super.viewDidLoad()
