@@ -19,7 +19,16 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    //trata o evento de alteração de valor do switch
+    @IBAction func handleSwitch(_ sender: UISwitch) {
+    }
+    //trata o evento de alteração do valor do segmented
+    @IBAction func handleSegmented(_ sender: UISegmentedControl) {
+    }
+    //trata o evento de alteração do slider
+    @IBAction func handleSlider(_ sender: UISlider) {
+    }
+    
 }
 
