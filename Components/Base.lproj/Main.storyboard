@@ -25,23 +25,27 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="galaxia" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kbI-ub-nOm">
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="galaxia" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kbI-ub-nOm">
                                 <rect key="frame" x="16" y="170" width="288" height="146"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iNy-Jk-Jsl">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iNy-Jk-Jsl">
                                 <rect key="frame" x="136" y="118" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="handleSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="8LF-v9-wB1"/>
                                 </connections>
                             </switch>
-                            <slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="nj2-oL-5us">
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="nj2-oL-5us">
                                 <rect key="frame" x="14" y="412" width="292" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="handleSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="MAa-ev-MLe"/>
                                 </connections>
                             </slider>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="4" translatesAutoresizingMaskIntoConstraints="NO" id="j1U-Tu-4PX">
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="4" translatesAutoresizingMaskIntoConstraints="NO" id="j1U-Tu-4PX">
                                 <rect key="frame" x="16" y="345" width="288" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="Red"/>
                                     <segment title="Green"/>
@@ -55,15 +59,14 @@
                             </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="j1U-Tu-4PX" firstAttribute="centerX" secondItem="kbI-ub-nOm" secondAttribute="centerX" id="77b-4S-5L6"/>
-                            <constraint firstItem="nj2-oL-5us" firstAttribute="centerX" secondItem="kbI-ub-nOm" secondAttribute="centerX" id="J30-rU-TTK"/>
-                            <constraint firstItem="iNy-Jk-Jsl" firstAttribute="centerX" secondItem="kbI-ub-nOm" secondAttribute="centerX" id="uOq-f2-0N9"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="handleSwitch" destination="iNy-Jk-Jsl" id="bdE-rj-nFj"/>
+                        <outlet property="vrImage" destination="kbI-ub-nOm" id="cpF-Y6-kXv"/>
+                        <outlet property="vrLabel" destination="job-ur-nG1" id="BGk-aJ-gIB"/>
+                        <outlet property="vrSegmented" destination="j1U-Tu-4PX" id="5ZT-ON-Klw"/>
+                        <outlet property="vrSlider" destination="nj2-oL-5us" id="KyW-UI-ymt"/>
+                        <outlet property="vrSwitch" destination="iNy-Jk-Jsl" id="syt-rx-EiH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
