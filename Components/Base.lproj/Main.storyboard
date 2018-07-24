@@ -93,6 +93,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="D19-JC-uMb"/>
                     </view>
+                    <connections>
+                        <outlet property="vrPicker" destination="BDJ-rK-lCZ" id="vfD-9z-ejr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M9O-Qa-i1y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
