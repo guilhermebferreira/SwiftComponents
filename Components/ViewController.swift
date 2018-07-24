@@ -28,6 +28,7 @@ class ViewController: UIViewController {
     }
     //trata o evento de alteração do slider
     @IBAction func handleSlider(_ sender: UISlider) {
+        self.view.alpha = CGFloat(sender.value)
     }
     
 }
