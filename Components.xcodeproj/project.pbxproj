@@ -13,6 +13,7 @@
 		20EAC808210797D900EAF67D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20EAC807210797D900EAF67D /* Assets.xcassets */; };
 		20EAC80B210797D900EAF67D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20EAC809210797D900EAF67D /* LaunchScreen.storyboard */; };
 		20EAC813210797F300EAF67D /* ViewControllerTela2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EAC812210797F300EAF67D /* ViewControllerTela2.swift */; };
+		20EAC8162107A4A100EAF67D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20EAC8142107A4A100EAF67D /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		20EAC80A210797D900EAF67D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20EAC80C210797D900EAF67D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20EAC812210797F300EAF67D /* ViewControllerTela2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTela2.swift; sourceTree = "<group>"; };
+		20EAC8152107A4A100EAF67D /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		20EAC8172107A4A100EAF67D /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 				20EAC807210797D900EAF67D /* Assets.xcassets */,
 				20EAC809210797D900EAF67D /* LaunchScreen.storyboard */,
 				20EAC80C210797D900EAF67D /* Info.plist */,
+				20EAC8142107A4A100EAF67D /* InfoPlist.strings */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -109,6 +113,7 @@
 			knownRegions = (
 				en,
 				Base,
+				pt,
 			);
 			mainGroup = 20EAC7F4210797D000EAF67D;
 			productRefGroup = 20EAC7FE210797D000EAF67D /* Products */;
@@ -126,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20EAC80B210797D900EAF67D /* LaunchScreen.storyboard in Resources */,
+				20EAC8162107A4A100EAF67D /* InfoPlist.strings in Resources */,
 				20EAC808210797D900EAF67D /* Assets.xcassets in Resources */,
 				20EAC806210797D000EAF67D /* Main.storyboard in Resources */,
 			);
@@ -151,6 +157,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				20EAC805210797D000EAF67D /* Base */,
+				20EAC8172107A4A100EAF67D /* pt */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -161,6 +168,14 @@
 				20EAC80A210797D900EAF67D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		20EAC8142107A4A100EAF67D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20EAC8152107A4A100EAF67D /* pt */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

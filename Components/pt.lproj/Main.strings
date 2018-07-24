@@ -1,0 +1,18 @@
+/* Class = "UISegmentedControl"; j1U-Tu-4PX.segmentTitles[0] = "Red"; ObjectID = "j1U-Tu-4PX"; */
+"j1U-Tu-4PX.segmentTitles[0]" = "Vermelho";
+
+/* Class = "UISegmentedControl"; j1U-Tu-4PX.segmentTitles[1] = "Green"; ObjectID = "j1U-Tu-4PX"; */
+"j1U-Tu-4PX.segmentTitles[1]" = "Verde";
+
+/* Class = "UISegmentedControl"; j1U-Tu-4PX.segmentTitles[2] = "Purple"; ObjectID = "j1U-Tu-4PX"; */
+"j1U-Tu-4PX.segmentTitles[2]" = "Purpura";
+
+/* Class = "UISegmentedControl"; j1U-Tu-4PX.segmentTitles[3] = "Yellow"; ObjectID = "j1U-Tu-4PX"; */
+"j1U-Tu-4PX.segmentTitles[3]" = "Amarelo";
+
+/* Class = "UISegmentedControl"; j1U-Tu-4PX.segmentTitles[4] = "While"; ObjectID = "j1U-Tu-4PX"; */
+"j1U-Tu-4PX.segmentTitles[4]" = "Branco";
+
+/* Class = "UILabel"; text = "MoboTorch"; ObjectID = "job-ur-nG1"; */
+"job-ur-nG1.text" = "TochaMobile";
+

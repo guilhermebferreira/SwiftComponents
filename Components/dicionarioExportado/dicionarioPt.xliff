@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xliff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file source-language="en" original="Components/Base.lproj/Main.storyboard" datatype="plaintext" target-language="pt">
+        <header>
+      <tool tool-version="9.4.1" build-num="9F2000" tool-name="Xcode" tool-id="com.apple.dt.xcode"/>
+    </header>
+    <body>
+      <trans-unit id="j1U-Tu-4PX.segmentTitles[0]">
+        <source>Red</source>
+        <target>Vermelho</target>
+        <note>Class = &quot;UISegmentedControl&quot;; j1U-Tu-4PX.segmentTitles[0] = &quot;Red&quot;; ObjectID = &quot;j1U-Tu-4PX&quot;;</note>
+      </trans-unit>
+      <trans-unit id="j1U-Tu-4PX.segmentTitles[1]">
+        <source>Green</source>
+        <target>Verde</target>
+        <note>Class = &quot;UISegmentedControl&quot;; j1U-Tu-4PX.segmentTitles[1] = &quot;Green&quot;; ObjectID = &quot;j1U-Tu-4PX&quot;;</note>
+      </trans-unit>
+      <trans-unit id="j1U-Tu-4PX.segmentTitles[2]">
+        <source>Purple</source>
+        <target>Purpura</target>
+        <note>Class = &quot;UISegmentedControl&quot;; j1U-Tu-4PX.segmentTitles[2] = &quot;Purple&quot;; ObjectID = &quot;j1U-Tu-4PX&quot;;</note>
+      </trans-unit>
+      <trans-unit id="j1U-Tu-4PX.segmentTitles[3]">
+        <source>Yellow</source>
+        <target>Amarelo</target>
+        <note>Class = &quot;UISegmentedControl&quot;; j1U-Tu-4PX.segmentTitles[3] = &quot;Yellow&quot;; ObjectID = &quot;j1U-Tu-4PX&quot;;</note>
+      </trans-unit>
+      <trans-unit id="j1U-Tu-4PX.segmentTitles[4]">
+        <source>While</source>
+        <target>Branco</target>
+        <note>Class = &quot;UISegmentedControl&quot;; j1U-Tu-4PX.segmentTitles[4] = &quot;While&quot;; ObjectID = &quot;j1U-Tu-4PX&quot;;</note>
+      </trans-unit>
+      <trans-unit id="job-ur-nG1.text">
+        <source>MoboTorch</source>
+        <target>TochaMobile</target>
+        <note>Class = &quot;UILabel&quot;; text = &quot;MoboTorch&quot;; ObjectID = &quot;job-ur-nG1&quot;;</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" original="Components/en.lproj/InfoPlist.strings" datatype="plaintext" target-language="pt">
+        <header>
+      <tool tool-version="9.4.1" build-num="9F2000" tool-name="Xcode" tool-id="com.apple.dt.xcode"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+        <note>Bundle name</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
